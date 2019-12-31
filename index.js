@@ -13,7 +13,8 @@ function addToCart(item) {
  // write your code here
  let obj = {}
 obj.itemName = item;
-obj.itemPrice = Math.rand();
+obj.itemPrice = Math.random() * 100;
+
   
 }
 
