@@ -11,6 +11,11 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ var cart = item
+ if (item.length >= 0) {
+
+ }
+ return cart
 }
 
 function viewCart() {
